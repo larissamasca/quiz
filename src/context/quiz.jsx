@@ -74,10 +74,7 @@ const quizReducer =(state, action) =>{
             }
 
         case "NEW_GAME":
-            return{
-                inicialState,
-                answerSelected: false,
-            }
+            return inicialState;
             
 
         case "CHECK_ANSWER": {
