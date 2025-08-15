@@ -38,10 +38,10 @@ const Question = () => {
             {!quizState.answerSelected && (
                 <>
                     {currentQuestion.tip && (
-                        <button onClick={() => dispatch({ type: "SHOW_TIP" })}>Dica</button>
+                        <button onClick={() => dispatch({ type: "SHOW_TIP" })}>Tip!</button>
                     )}
                     <button onClick={() => dispatch({ type: "REMOVE_OPTION" })}>
-                        Excluir uma
+                        Exclude one
                     </button>
                 </>
             )}
