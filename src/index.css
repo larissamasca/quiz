@@ -1,0 +1,33 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+body, html{
+  min-height: 100vh;
+  height: 100%;
+  background-color: rgb(8, 8, 8);
+}
+
+img{
+  width: 100%;
+}
+
+button{
+  font-weight: bold;
+  font-size: 1.2em;
+  cursor: pointer;
+  padding: .6rem 1.2rem;
+  background: linear-gradient(
+    90deg, #9929EA 0%, #CC66DA 100%
+  );
+  border-radius: 4rem;
+  
+}
+
+button:hover{
+  background: linear-gradient(
+    90deg, #CC66DA 0%, #9929EA 100%
+  );
+}
